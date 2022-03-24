@@ -1,0 +1,15 @@
+{
+  "name": "color-hex-sync",
+  "version": "1.0.0",
+  "description": "color hex code to text (same name)",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "keisokoo",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "typescript": "^4.6.2"
+  }
+}

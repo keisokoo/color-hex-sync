@@ -1,0 +1,7 @@
+<h2>변경 완료</h2>
+<button id="cancel">닫기</button>
+<script>
+  document.getElementById('cancel').onclick = () => {
+    parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*')
+  }
+</script>
